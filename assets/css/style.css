@@ -1,0 +1,89 @@
+/* body {
+background-image:url("assets/images/regal.png");
+} */
+
+h1, p {
+text-align: center;
+}
+
+h1 {
+font-family: 'Shrikhand', cursive;
+font-size: 70px;
+}
+
+p {
+font-size: 25px;
+}
+
+input {
+height: 120px;
+}
+
+img {
+height:200px;
+}
+
+.box {
+float: left;
+height: 90px;
+width: 200px;
+margin-left: 10px;
+margin-top: 10px;
+padding: 5px;
+}
+
+#first {
+margin-left: 430px;
+}
+
+#second {
+margin-bottom: 40px;
+}
+
+#crystal {
+margin-left: 210px;
+}
+
+#crystall, #crystalll, #crystallll {
+margin-left: 20px;
+}
+
+#crystals {
+margin-left: -40px;
+}
+
+@media screen and (max-width: 980px) {
+
+#first {
+margin-left: 300px;
+}
+
+#crystal {
+margin-left: 60px;
+}
+
+    }
+
+@media screen and (max-width: 768px)  {
+#first {
+margin-left: 200px;
+}
+
+img {
+height: 150px;
+}
+    }
+
+@media screen and (max-width: 640px) {
+#first{
+margin-left: 120px;
+}
+
+#crystals {
+margin-left: -50px;
+}
+
+img {
+height: 120px;
+}
+    }
